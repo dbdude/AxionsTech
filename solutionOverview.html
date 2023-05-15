@@ -17,36 +17,32 @@
 <a href="Home.html">Home</a>&nbsp;&nbsp;&nbsp;
 <a href="Challenges.html">Challenges</a>&nbsp;&nbsp;&nbsp;
 <a href="Mission.html">Mission</a>&nbsp;&nbsp;&nbsp;
-<a href="SolutionOverview.html">Solution - Overview</a>&nbsp;&nbsp;&nbsp;
-<a href="SolutionComponents.html">Solution - Components</a>
+<a href="solutionOverview.html">Solution - Overview</a>&nbsp;&nbsp;&nbsp;
+<a href="solutionComponents.html">Solution - Components</a>
 </div>
 
-<H1 class="pagetop">One platform for all your health technology needs</H1>
+<H1 class="pagetop">Solution Stack</H1>
 
 <g class="imageOnTop">
     <picture>
-    <svg width="800" height="400">
-        <image href="images/display.jpg" height="400" width="800" />
-        <defs>
-            <radialGradient id="rg_front" r="1">
-                <stop offset=".10" stop-color="white" />
-                <stop offset=".60" stop-color="lightgrey" />
-                <stop offset=".90" stop-color="darkblue" />
-            </radialGradient>
-        </defs>
-        <g transform="rotate(-10 100 100)
-               skewX(40)
-               scale(.75 0.75)">
-            <path id="spiral2" fill="None" stroke-width="8"
-                  stroke="url(#rg_front)"
-                  d="M 210,300
-                 A  10  10 90 0 0 200,290 A  10  10 90 0 0 190,300 A  20  20 90 0 0 210,320
-                 A  30  30 90 0 0 240,290 A  50  50 90 0 0 190,240 A  80  80 90 0 0 110,330 A 130 130 90 0 0 240,450"
-            />
+        <g>
+            <img id="ss1" width="800" height="400" src="images/softwareStack1.svg" alt="Diagram Software Stack" />
         </g>
-    </svg>
-</picture>
+    </picture>
 </g>
+
+<script>
+    function showSummary() {
+    }
+    function hideSummary() {
+    }
+    function setupComponents() {
+        cDet = document.getElementById('swStack1');
+        isVisible = cDet.checkVisibility();
+        alert(isVisible);
+    }
+    setupComponents();
+</script>
 
 <P>
     Our solution brings together the management of all physical and software based medical devices to improve

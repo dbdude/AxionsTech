@@ -1,0 +1,57 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg visibility='visible' id="swStackDetail" width="800" height="400" viewBox="0 0 2000 1000" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg">
+    <title>Software Stack - Detail</title>
+    <g class="componentDetail"
+       fill="blue"
+       font-family="Verdana, serif"
+       font-size="30"
+       alignment-baseline="middle"
+       text-anchor="middle">
+
+        <rect x="0" y="0" width="200" height="800" fill="None" stroke="black" stroke-width="3" />
+        <text x="100" y="350" class="TextComponents">Knowledge</text>
+        <text x="100" y="400" class="TextComponents">Discovery</text>
+        <rect x="200" y="0" width="300" height="100" fill="None" stroke="black" stroke-width="3" />
+        <text x="350" y="50" class="TextComponents">Help and Support</text>
+        <rect x="500" y="0" width="300" height="100" fill="None" stroke="black" stroke-width="3" />
+        <text x="650" y="50" class="TextComponents">Identity</text>
+        <rect x="800" y="0" width="400" height="100" fill="None" stroke="black" stroke-width="3" />
+        <text x="1000" y="50" class="TextComponents">Credential Management</text>
+        <rect x="1200" y="0" width="200" height="150" fill="None" stroke="black" stroke-width="3" />
+        <text x="1300" y="75" class="TextComponents">Ontology</text>
+
+        <rect x="1200" y="150" width="200" height="175" fill="None" stroke="black" stroke-width="3" />
+        <text x="1300" y="237.5" class="TextComponents">SBOM</text>
+
+        <rect x="1400" y="0" width="200" height="800" fill="None" stroke="black" stroke-width="3" />
+        <text x="1500" y="400" class="TextComponents">Inform</text>
+        <rect x="200" y="100" width="1000" height="150" fill="None" stroke="black" stroke-width="3" />
+        <text x="700" y="175" class="TextComponents">Library</text>
+        <rect x="200" y="250" width="1000" height="75" fill="None" stroke="black" stroke-width="3" />
+        <text x="700" y="287" class="TextComponents">Workflows</text>
+        <rect x="1200" y="150" width="200" height="174" fill="None" stroke="black" stroke-width="3" />
+        <text x="1500" y="400" class="TextComponents">Inform</text>
+        <rect x="200" y="325" width="900" height="275" fill="None" stroke="black" stroke-width="3" />
+        <text x="650" y="462.5" class="TextComponents">RDB</text>
+        <rect x="200" y="325" width="200" height="100" fill="None" stroke="black" stroke-width="3" />
+        <text x="300" y="375" class="TextComponents">PPM</text>
+        <rect x="1100" y="325" width="300" height="125" fill="None" stroke="black" stroke-width="3" />
+        <text x="1250" y="387.5" class="TextComponents">Equipment Library</text>
+        <rect x="1100" y="450" width="300" height="150" fill="None" stroke="black" stroke-width="3" />
+        <text x="1250" y="525" class="TextComponents">Location</text>
+        <rect x="200" y="600" width="200" height="100" fill="None" stroke="black" stroke-width="3" />
+        <text x="300" y="650" class="TextComponents">People</text>
+        <rect x="400" y="600" width="300" height="200" fill="None" stroke="black" stroke-width="3" />
+        <text x="550" y="700" class="TextComponents">Usage</text>
+        <rect x="700" y="600" width="200" height="200" fill="None" stroke="black" stroke-width="3" />
+        <text x="800" y="700" class="TextComponents">Virtual Ward</text>
+        <rect x="900" y="600" width="500" height="100" fill="None" stroke="black" stroke-width="3" />
+        <text x="1150" y="650" class="TextComponents">Vulnerability</text>
+        <rect x="200" y="700" width="200" height="100" fill="None" stroke="black" stroke-width="3" />
+        <text x="300" y="750" class="TextComponents">Patient Risk</text>
+        <rect x="900" y="700" width="500" height="100" fill="None" stroke="black" stroke-width="3" />
+        <text x="1150" y="750" class="TextComponents">Software as Medical Device</text>
+    </g>
+</svg>

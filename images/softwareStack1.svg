@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg id="swStackSummary" width="800" height="400" viewBox="0 0 2000 1000" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg">
+    <title>Software Stack - Summary</title>
+    <g id="componentSummary"
+           fill="blue"
+           font-family="Verdana, serif"
+           font-size="30"
+           alignment-baseline="middle"
+           text-anchor="middle">
+        <rect x="0" y="0" width="200" height="800" fill="None" stroke="black" stroke-width="3" />
+        <text x="100" y="350" class="TextComponents">Knowledge</text>
+        <text x="100" y="400" class="TextComponents">Discovery</text>
+        <rect x="1400" y="0" width="200" height="800" fill="None" stroke="black" stroke-width="3" />
+        <text x="1500" y="400" class="TextComponents">Inform</text>
+        <rect x="200" y="0" width="1200" height="325" fill="None" stroke="black" stroke-width="3" />
+        <text x="800" y="175" class="TextComponents">Document Library</text>
+
+        <rect x="200" y="325" width="1200" height="475" fill="None" stroke="black" stroke-width="3" />
+        <text x="800" y="557.5" class="TextComponents">RDB: Device Management</text>
+    </g>
+ </svg>
