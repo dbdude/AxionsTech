@@ -12,9 +12,9 @@ body {
     padding: 1rem 0.5rem;
     font-size: 1.3rem;
     line-height: 1.2;
-    max-width: 60rem;
+    max-width: 180rem;
     margin: 0 auto;
-    min-height: 100vh;
+    min-height: 200vh;
     color: #333;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -22,6 +22,16 @@ body {
 
 img {
     max-width: 100%;
+    width:100%; /* IE */
+}
+
+.full_image {
+    max-width: 100%;
+    max-height: 100%;
+    width:100%; /* IE */
+    background-size: contain;
+    position: relative;
+    filter: brightness(0.5)
 }
 
 .imageOnTop {
@@ -31,6 +41,7 @@ img {
     z-index: -1;
     position: relative;
 }
+
 
 .Header {
     text-align: center;
@@ -89,6 +100,59 @@ img {
     line-height: 1.4em;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-family: Verdana, serif;
+    font-size: 60px;
+}
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(-0%, -50%);
+    font-family: Verdana, serif;
+    font-size: 40px;
+    fill: red;
+    stroke: white;
+    color: white;
+    alignment-baseline: middle;
+}
+
+.my-first-grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-rows: 400px 200px;
+}
+.grid-item-1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+.grid-item-2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+.grid-item-3 {
+    grid-row: 1;
+    grid-column: 3;
+}
+[class^='grid-item'] {
+    font-size: 30px;
+}
+
+
+
 @media screen and (min-width: 800px) {
     body {
         border-left: 4px solid #f9f9f9;
@@ -103,33 +167,4 @@ img {
         align-items: center;
     }
 
-    .MoneyShot,
-    .IntroText {
-        margin: 0;
-        flex: 1 1 50%;
-    }
-    .MoneyShotImg {
-        filter: drop-shadow(0 0 20px #0008);
-        border: 0;
-    }
-    .IntroText {
-        padding: 0.5rem;
-        font-size: 2.5rem;
-        text-align: left;
-        position: relative;
-    }
-
-    .Ingredients {
-        font-size: 0.9rem;
-        float: right;
-        padding: 1rem;
-        margin: 0 0 0.5rem 1rem;
-        border-radius: 3px;
-        background-color: #ffffdf;
-        border: 9px solid #debb71;
-    }
-
-    .Ingredients h3 {
-        margin: 0;
-    }
 }
