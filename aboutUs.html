@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AxionsTech</title>
+    <meta
+            name="Mission Statement and Bios"
+            content="Mission Statement and Bios"
+    />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<div>
+    <nav>
+        <ul id="mainMenu">
+            <li><a href="Home.html">AxionsTech</a></li>
+            <li><a href="SolutionOverview.html">Our Solution</a></li>
+            <li><a href="aboutUs.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+
+<div class="container">
+    <picture>
+        <svg class="full_image" width="2000" height="600">
+            <defs>
+                <radialGradient id="rg_front" r="1">
+                    <stop offset=".10" stop-color="white" />
+                    <stop offset=".60" stop-color="lightgrey" />
+                    <stop offset=".90" stop-color="darkblue" />
+                </radialGradient>
+            </defs>
+            <defs>
+                <filter id="f1" x="0" y="0">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+                </filter>
+            </defs>
+            <image class="full_image" href="images/spiralgalaxy.jpg" filter="url(#f1)"/>
+            <g transform="rotate(-10 100 100)
+                   skewX(30)
+                   scale(.75 0.75)">
+                <path id="spiral2" fill="None" stroke-width="8"
+                      stroke="url(#rg_front)" visibility="hidden"
+                      d="M 410,400
+                     A  10  10 90 0 0 400,390 A  10  10 90 0 0 390,400 A  20  20 90 0 0 410,420
+                     A  30  30 90 0 0 440,390 A  50  50 90 0 0 390,340 A  80  80 90 0 0 310,430 A 130 130 90 0 0 440,550"
+                />
+            </g>
+        </svg>
+    </picture>
+    <div class="top-left">Our Mission
+    </div>
+    <div class="centered">
+        Ensuring medical devices are effective by putting people and patient safety front and centre of everything we do.
+    </div>
+</div>
+
+<div class="my-first-grid">
+    <div class="grid-item-1">
+        <P><B>Jen</B></P>
+        <p>
+            An experienced business leader with a background in finance that has worked in a number of different industries including hardware solutions,
+            music and broadcasting before transitioning into the startup world.
+            Since 2010 it’s been all about data products; working with users to craft experiences that deliver useful outcomes.
+            Started out in B2C but ultimately fell in love with the problems in Life Sciences and Healthcare tackling
+            issues from genomics to cyber in healthcare.
+            Passionate about using technology to improve healthcare outcomes and committed to developing products that make a difference
+            in the lives of those working in hospitals and, ultimately, to patient safety and care.
+        </p>
+    </div>
+    <div class="grid-item-2">
+        <P><B>Ian</B><P>
+        <p>
+            A wide range of experience ranging from designing sensors for coal mines and nuclear reactors to leading winning teams
+            in the Supercomputing benchmark arena. More recently was spend within hundred million plus social networks and delivering
+            a DNA search engine for cancer research. During the career several years were spent within the Cyber arena
+            preventing scammers and hackers gaining access using a range of novel ML/AI techniques.
+        </p>
+        <p>
+            The need for for a Medical devices solution within the Health sector become very obvious whilst working within the NHS on an IoT cyber
+            product.
+        </p>
+    </div>
+
+</div>
+
+</body>
+
+</html>

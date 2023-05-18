@@ -48,37 +48,32 @@ img {
     margin-bottom: 2rem;
     padding-bottom: 1rem;
 }
-
-ol,ul {
-    list-style: none;
-}
-#mainMenu {
-    margin:10px;
-    width:900px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-#mainMenu li {
-    display:block;
-    width:120px;
-    float:left;
-    margin-left:2px;
-    border:1px solid #000;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-#mainMenu a {
-    display:block;
-    padding:3px;
-    text-decoration:none;
-    background-color:#fff;
-    color:#009;
+li {
+    float: left;
 }
 
-#mainMenu a:hover {
-    background-color:#009;
-    color:#fff;
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, serif;
+    font-size: 16px;
 }
 
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
 
 .TextComponents {
     font-family: Verdana, serif;
