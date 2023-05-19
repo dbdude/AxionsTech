@@ -139,6 +139,20 @@ li a:hover {
     alignment-baseline: middle;
 }
 
+.centered-small {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+    transform: translate(-0%, -50%);
+    font-family: Verdana, serif;
+    font-size: 20px;
+    fill: red;
+    stroke: white;
+    color: white;
+    alignment-baseline: middle;
+}
+
 .my-first-grid {
     display: grid;
     grid-gap: 40px;
