@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>AxionsTech</title>
     <meta
-            name="description"
-            content="A basic responsive web page – an example from Chapter 1"
+            name="Software overview"
+            content="Software Overview"
     />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -13,77 +13,101 @@
 
 <body>
 
-<div class="Header">
-<a href="Home.html">Home</a>&nbsp;&nbsp;&nbsp;
-<a href="Challenges.html">Challenges</a>&nbsp;&nbsp;&nbsp;
-<a href="Mission.html">Mission</a>&nbsp;&nbsp;&nbsp;
-<a href="solutionOverview.html">Solution - Overview</a>&nbsp;&nbsp;&nbsp;
-<a href="solutionComponents.html">Solution - Components</a>
+<div>
+    <nav>
+        <ul id="mainMenu">
+            <li><a href="Home.html">AxionsTech</a></li>
+            <li><a href="solutionOverview.html">Our Solution</a></li>
+            <li><a href="aboutUs.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </nav>
 </div>
 
-<H1 class="pagetop">Solution Stack</H1>
 
-<g class="imageOnTop">
+<div class="container">
     <picture>
-        <g>
-            <img id="ss1" width="800" height="400" src="images/softwareStack1.svg" alt="Diagram Software Stack" />
-        </g>
+        <svg class="full_image" width="2000" height="600">
+            <defs>
+                <radialGradient id="rg_front" r="1">
+                    <stop offset=".10" stop-color="white" />
+                    <stop offset=".60" stop-color="lightgrey" />
+                    <stop offset=".90" stop-color="darkblue" />
+                </radialGradient>
+            </defs>
+            <defs>
+                <filter id="f2" x="0" y="0">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+                </filter>
+            </defs>
+            <image class="full_image" href="images/VR_Brain.jpg" filter="url(#f2)"/>
+        </svg>
     </picture>
-</g>
+    <div class="top-left">Software Overview
+    </div>
+    <div class="centered">
+        We are building a series of modular packages aimed at managing all aspects of medical devices from.
+        Commisioning, through lifecycle management and disposal.
+    </div>
+</div>
 
-<script>
-    function showSummary() {
-    }
-    function hideSummary() {
-    }
-    function setupComponents() {
-        cDet = document.getElementById('swStack1');
-        isVisible = cDet.checkVisibility();
-        alert(isVisible);
-    }
-    setupComponents();
-</script>
+<div class="my-solution-grid">
+    <div class="grid-soloution-1-1">
+        <P><B>Overview</B></P>
+        <p>
+            Designed to cater the needs of the entire clinical infrastructure and built to comply with
+            proposed new standards. There are currently 19 identified components which are capable of
+            running individually or combined to provide more functionality as needed.
+        </p>
+        <P>
+            There are some key design elements of our proposal. We are intending to address all
+            requirements of medical science teams from acquisition, usage through to disposal.
+            Most of these requirements have come
+            directly from these teams and now its time to build it collaboration with a number of
+            hospital partners.
+        </P>
+        <P>
+            Recent advances in ML/AI can be leveraged to assist in the medical device world. This will
+            provide significant benefit. It is important that we are proposing some novel implementations and not
+            shoehorning an existing 'round' solution into a clinical 'square' hole.
+            One example is we intend to semi-automate device failure reporting. If we just added a chat-bot it is
+            likely that it will not be used because the ward staff cannot spare the time. Asking a single question
+            however could reduce false reports and not be very onerous on the ward team.
+        </P>
+    </div>
+    <div class="grid-soloution-2-1">
+        <P><B>Management and Governance</B><P>
+        <p>
+            We will provide an overview and details analysis on all aspects of clinical devices. Regulatory reporting
+            is built in along with analysis of the effectiveness of the current PPM schedules from a safety and
+            efficiency perspective.
+        </p>
 
-<P>
-    Hospitals are facing increasing challenges in the management of digital health technologies.
-    The explosion of smart Medical Devices has brought great opportunities to improve patient care and outcomes.
-    With connectivity for med devices came great opportunities for improved patient safety,
-    outcomes and efficiencies yet it has caused heightened complexity in the management of hospital networks,
-    increased risk from cyber security incidents and data breaches and added complexity with
-    compatibility and the management of patching, updates and maintenance requirements
-</P>
-<P>
-    Engineering teams have to adapt to these new environments which is bringing fresh demands upon skills and
-    processes. It also increases the complexity of any associated diagnostics as well as the number of possible
-    failure points. Consider a device no longer logging data into a patient monitoring system, the network now
-    becomes a possible candidate for the issue.
-</P>
+    </div>
+    <div class="grid-soloution-2-2">
+        <P><B>Device Science</B><P>
+        <p>
+            The solution breaks down into four main components
+        </p>
+        <p>
+            The need for for a Medical devices solution within the Health sector become very obvious whilst working within the NHS on an IoT cyber
+            product.
+        </p>
+    </div>
+    <div class="grid-soloution-3-1">
+        <P><B>Bla</B><P>
+        <p>
+            bla bla bla
+        </p>
+    </div>
+    <div class="grid-soloution-3-2">
+        <P><B>Bla</B><P>
+        <p>
+            bla bla bla
+        </p>
+    </div>
 
-<P>
-    Our solution brings together the management of all aspects of physical and software based medical devices to improve
-    the effectiveness and efficiency to provide greater visibility for data governance and help manage cyber risk.
-</P>
-<P>The "Document Library" is a key enabler. Keeping all the relevent documentation in one place provides a
-    corpus of knowledge for AI algorithms to operate over.
-    When this is combined with maintenance information and usage it becomes even more valuable. It is proposed to
-    offer elements of this component to wider audiences in order to crowd source new material.
-</P>
-<P>
-    Facilitating greater collaboration between teams that have remained siloed to date is a key element of our solution.
-</P>
-<P>
-    Cyber risk coupled with the proliferation of SaMD and AIaMD have brought about an
-    overhaul of the regulatory framework adding additional administrative burden to overstretched hospitals
-</P>
-
-<P>
-    Planned preventative maintenance (PPM) needs to be effectively scheduled and continually evaluated.
-    Knowledge discovery techniques need to constantly monitor equipment and adjust schedules as needed in order
-    to prevent failures.
-</P>
-
-<P></P>
+</div>
 
 </body>
-
 </html>
