@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AxionsTech</title>
+    <meta
+            name="Contact Us"
+            content="This page allows the user to fill a form and email us"
+    />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+<div>
+    <nav>
+        <ul id="mainMenu">
+            <li><a href="Home.html">AxionsTech</a></li>
+            <li><a href="SolutionOverview.html">Our Solution</a></li>
+            <li><a href="aboutUs.html">About us</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+  <div class="container">
+      <picture>
+          <svg class="full_image" width="2000" height="600">
+              <defs>
+                  <radialGradient id="rg_front" r="1">
+                      <stop offset=".10" stop-color="white" />
+                      <stop offset=".60" stop-color="lightgrey" />
+                      <stop offset=".90" stop-color="darkblue" />
+                  </radialGradient>
+              </defs>
+              <defs>
+                  <filter id="f1" x="0" y="0">
+                      <feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+                  </filter>
+              </defs>
+              <image class="large_image" href="images/infusionpump.jpg" filter="url(#f1)"/>
+          </svg>
+      </picture>
+      <div class="top-left"><B>We would love to hear from you</B>
+      </div>
+      <div class="image-left-text">
+          <BR>
+          <P align="left">
+          Send an email to: ian@axionstech.com
+          <P align="left">or
+          <B><a href="mailto:ian@axionstech.com?subject=AxionsTech%20Contact%20Request&body=Please%20let%20us%20know%20how%20we%20can%20help%20you">click to start your email client</a></B></P>
+      </div>
+  </div>
+</body>
+
+</html>
