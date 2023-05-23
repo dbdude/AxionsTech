@@ -157,6 +157,24 @@ li a:hover {
     color: white;
 }
 
+
+
+
+    /* left-justfied text */
+.left-justfied {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    right: 5%;
+    transform: translate(-0%, -50%);
+    font-family: Verdana, serif;
+    font-size: 30px;
+    fill: red;
+    stroke: white;
+    color: white;
+    alignment-baseline: middle;
+}
+
 /* Centered text */
 .centered {
     position: absolute;
