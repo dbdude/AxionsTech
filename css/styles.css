@@ -27,9 +27,20 @@ img {
     max-width: 100%;
     max-height: 100%;
     width:100%; /* IE */
-    filter: brightness(0.5);
-    border-width: 0
+    border-width: 0;
+    object-fill: cover;
+    height: 600px;
 }
+
+.short_image {
+    max-width: 100%;
+    max-height: 100%;
+    width:100%; /* IE */
+    border-width: 0;
+    object-fill: cover;
+    height: 300px;
+}
+
 
 .imageOnTop {
     fill:orange;
@@ -175,6 +186,21 @@ li a:hover {
 .centered {
     position: absolute;
     top: 50%;
+    left: 5%;
+    right: 5%;
+    transform: translate(-0%, -50%);
+    font-family: Verdana, serif;
+    font-size: 30px;
+    fill: red;
+    stroke: white;
+    color: white;
+    alignment-baseline: middle;
+}
+
+/* Centered text */
+.centered-low {
+    position: absolute;
+    top: 70%;
     left: 5%;
     right: 5%;
     transform: translate(-0%, -50%);
